@@ -7,7 +7,7 @@ import PlayerContextProvider from './context/PlayerContext.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter  >                              
+    <BrowserRouter basename='/Stopify-App/' >                              
     <PlayerContextProvider>
        <App/>
     </PlayerContextProvider>
